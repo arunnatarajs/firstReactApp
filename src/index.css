@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.upperleft{
+  text-align-last: right;
+  justify-content: start;
+}
+
+span.muted{
+  color: #6D727C;
+}
+
+span.body{
+  color: #39496A;
+}
+
+span.Link-monospace{
+  font: Courier New , Bold;
+  size: 13px;
+  color: #1C7CD6;
+
+}
