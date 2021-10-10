@@ -12,10 +12,10 @@ code {
     monospace;
 }
 
-.upperleft{
+/* .upperleft{
   text-align-last: right;
   justify-content: start;
-}
+} */
 
 span.muted{
   color: #6D727C;
@@ -30,4 +30,39 @@ span.Link-monospace{
   size: 13px;
   color: #1C7CD6;
 
+}
+
+span.body-text{
+  font: Arial;
+  font-weight: 400;
+  size: 14px;
+  line-height: 20px;
+  color: #39496A;
+}
+
+p.header{
+  color: #39496A;
+  font-weight: 600;
+  size: 16px;
+  line-height: 24px;
+}
+
+.image{
+  width: 100px;
+  border-radius: 50%;
+}
+
+/* .float-container {
+  border: 3px solid #fff;
+  padding: 20px;
+} */
+
+.left{
+ float: left;
+ width: auto;
+}  
+.right{
+  float: right;
+  width: auto;
+  text-align-last: right;
 }
