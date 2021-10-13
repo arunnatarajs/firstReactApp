@@ -10,7 +10,7 @@ function App() {
    <Router>
      <Route path="/home" component={Home} />
 
-     <Route path="/repositories/:owner/:repository/commits" component={Commit}/>
+     <Route path="/repositories/:owner/:repository/commits/:oid" component={Commit}/>
 
      
     </Router>
